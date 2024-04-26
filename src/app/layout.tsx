@@ -6,8 +6,8 @@ import React from "react";
 const font = Noto_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Types Manager App",
-  description: "Types Manager App",
+  title: "Note Manager App",
+  description: "Note Manager App",
 };
 
 export default function RootLayout({

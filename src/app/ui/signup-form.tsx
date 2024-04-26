@@ -77,7 +77,7 @@ export default function SignupForm() {
                         </div>
                     </div>
                 </div>
-                <LoginButton />
+                <SignupButton />
                 <div
                     className="flex h-8 items-end space-x-1"
                     aria-live="polite"
@@ -95,7 +95,7 @@ export default function SignupForm() {
     );
 }
 
-function LoginButton() {
+function SignupButton() {
     const { pending } = useFormStatus();
 
     return (
